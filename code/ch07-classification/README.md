@@ -12,6 +12,6 @@ Runnable code examples mirroring [`notes/ch07-classification/`](../../notes/ch07
 | [7.6-k-nearest-neighbors-classification/](7.6-k-nearest-neighbors-classification/) | 7.6-k-nearest-neighbors-classification.py |
 | [7.7-support-vector-machine/](7.7-support-vector-machine/) | 7.7-support-vector-machine.py |
 | [7.8-classification-with-scikit-learn/](7.8-classification-with-scikit-learn/) | 7.8-classification-with-scikit-learn.py |
-| [exercises/](exercises/) | exercises.py |
+| [exercises/](exercises/) | exercise-01.py, exercise-02.py, exercise-03.py, exercise-04.py, exercise-05.py, exercise-06.py, exercise-07.py, exercise-08.py, exercise-09.py, exercise-10.py, exercise-11.py, exercise-12.py, exercise-13.py, exercise-14.py, exercise-15.py, exercise-16.py, exercise-17.py, exercise-18.py |
 
 Status: **framework only** — files are stubs with a source-reference header comment. Code has not been transcribed in yet.

@@ -12,6 +12,6 @@ Runnable code examples mirroring [`notes/ch04-unsupervised-learning/`](../../not
 | [4.6-clustering-via-vector-quantization/](4.6-clustering-via-vector-quantization/) | 4.6.1-k-means.py, 4.6.2-clustering-via-continuous-multiextremal-optimization.py |
 | [4.7-hierarchical-clustering/](4.7-hierarchical-clustering/) | 4.7-hierarchical-clustering.py |
 | [4.8-principal-component-analysis/](4.8-principal-component-analysis/) | 4.8.1-motivation-principal-axes-of-an-ellipsoid.py, 4.8.2-pca-and-singular-value-decomposition.py |
-| [exercises/](exercises/) | exercises.py |
+| [exercises/](exercises/) | exercise-01.py, exercise-02.py, exercise-03.py, exercise-04.py, exercise-05.py, exercise-06.py, exercise-07.py, exercise-08.py, exercise-09.py, exercise-10.py, exercise-11.py, exercise-12.py, exercise-13.py, exercise-14.py, exercise-15.py, exercise-16.py |
 
 Status: **framework only** — files are stubs with a source-reference header comment. Code has not been transcribed in yet.

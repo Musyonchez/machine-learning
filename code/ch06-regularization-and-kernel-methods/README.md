@@ -12,6 +12,6 @@ Runnable code examples mirroring [`notes/ch06-regularization-and-kernel-methods/
 | [6.6-smoothing-cubic-splines/](6.6-smoothing-cubic-splines/) | 6.6-smoothing-cubic-splines.py |
 | [6.7-gaussian-process-regression/](6.7-gaussian-process-regression/) | 6.7-gaussian-process-regression.py |
 | [6.8-kernel-pca/](6.8-kernel-pca/) | 6.8-kernel-pca.py |
-| [exercises/](exercises/) | exercises.py |
+| [exercises/](exercises/) | exercise-01.py, exercise-02.py, exercise-03.py, exercise-04.py, exercise-05.py, exercise-06.py, exercise-07.py, exercise-08.py, exercise-09.py, exercise-10.py, exercise-11.py, exercise-12.py, exercise-13.py, exercise-14.py, exercise-15.py, exercise-16.py, exercise-17.py, exercise-18.py, exercise-19.py, exercise-20.py |
 
 Status: **framework only** — files are stubs with a source-reference header comment. Code has not been transcribed in yet.

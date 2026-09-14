@@ -7,6 +7,7 @@ Runnable Python code for every code example in *Data Science and Machine Learnin
 - One top-level folder per chapter/appendix, matching the `notes/` folder names exactly (e.g. `ch01-importing-summarizing-visualizing-data/`).
 - Inside each chapter folder, one sub-folder per section — matching each `.md` file in that chapter's notes folder (e.g. `notes/.../1.5-visualizing-data.md` → `code/.../1.5-visualizing-data/`).
 - Inside each section folder, one `.py` file per subsection (e.g. `1.5.1-plotting-qualitative-variables.py`, `1.5.2.1-boxplot.py`). If a section has no numbered subsections, it gets a single `.py` file named after the section itself, holding all of that section's code.
+- Each chapter's `exercises/` folder gets one `.py` file per exercise (`exercise-01.py`, `exercise-02.py`, ...), not one combined file — matching the granularity of everything else.
 - Every `.py` file starts with a header comment identifying the chapter/section, the source PDF pages, and a link back to the matching notes file — so code and explanation stay cross-referenced.
 
 This mirrors the book's own numbering exactly, so any code example can be found by its section number alone, in both `notes/` and `code/`.

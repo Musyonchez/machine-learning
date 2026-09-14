@@ -11,6 +11,6 @@ Runnable code examples mirroring [`notes/ch08-decision-trees-and-ensemble-method
 | [8.5-bootstrap-aggregation/](8.5-bootstrap-aggregation/) | 8.5-bootstrap-aggregation.py |
 | [8.6-random-forests/](8.6-random-forests/) | 8.6-random-forests.py |
 | [8.7-boosting/](8.7-boosting/) | 8.7-boosting.py |
-| [exercises/](exercises/) | exercises.py |
+| [exercises/](exercises/) | exercise-01.py, exercise-02.py, exercise-03.py, exercise-04.py, exercise-05.py, exercise-06.py, exercise-07.py, exercise-08.py, exercise-09.py, exercise-10.py, exercise-11.py, exercise-12.py, exercise-13.py |
 
 Status: **framework only** — files are stubs with a source-reference header comment. Code has not been transcribed in yet.
