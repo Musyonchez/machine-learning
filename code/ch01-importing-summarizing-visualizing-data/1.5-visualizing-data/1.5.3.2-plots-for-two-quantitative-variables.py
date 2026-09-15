@@ -24,7 +24,10 @@ plt.show()
 urlprefix = 'https://vincentarelbundock.github.io/Rdatasets/csv/'
 dataname = 'MASS/birthwt.csv'
 bwt = pd.read_csv(urlprefix + dataname)
-bwt = bwt.drop('Unnamed: 0', axis=1)    # drop unnamed column (use axis=1, not positional)
+# Rdatasets currently exports the index column as 'rownames' (the book-era
+# CSVs left it blank, which pandas auto-names 'Unnamed: 0') -- handle both.
+index_col = 'rownames' if 'rownames' in bwt.columns else 'Unnamed: 0'
+bwt = bwt.drop(index_col, axis=1)
 styles = {0: ['o', 'red'], 1: ['^', 'blue']}
 for k in styles:
     grp = bwt[bwt.smoke == k]

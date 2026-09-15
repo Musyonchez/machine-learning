@@ -29,5 +29,8 @@ iris = pd.read_csv(urlprefix + dataname)
 print(iris.head())
 print(iris.columns)
 # .drop(..., 1) is deprecated positional-axis syntax; use axis=1 instead.
-iris = iris.drop('Unnamed: 0', axis=1)
+# Rdatasets currently exports the index column as 'rownames' (the book-era
+# CSVs left it blank, which pandas auto-names 'Unnamed: 0') -- handle both.
+index_col = 'rownames' if 'rownames' in iris.columns else 'Unnamed: 0'
+iris = iris.drop(index_col, axis=1)
 print(iris.head())

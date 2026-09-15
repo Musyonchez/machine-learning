@@ -13,7 +13,10 @@ import seaborn as sns
 
 # (a) Read the Orange data set and remove its first (unnamed) column.
 orange = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Orange.csv')
-orange = orange.drop('Unnamed: 0', axis=1)
+# Rdatasets currently exports the index column as 'rownames' (the book-era
+# CSVs left it blank, which pandas auto-names 'Unnamed: 0') -- handle both.
+index_col = 'rownames' if 'rownames' in orange.columns else 'Unnamed: 0'
+orange = orange.drop(index_col, axis=1)
 print("(a) orange head:")
 print(orange.head())
 

@@ -13,7 +13,10 @@ import seaborn as sns
 
 # (a) Load the iris data set into a pandas DataFrame.
 iris = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/datasets/iris.csv')
-iris = iris.drop('Unnamed: 0', axis=1)
+# Rdatasets currently exports the index column as 'rownames' (the book-era
+# CSVs left it blank, which pandas auto-names 'Unnamed: 0') -- handle both.
+index_col = 'rownames' if 'rownames' in iris.columns else 'Unnamed: 0'
+iris = iris.drop(index_col, axis=1)
 print("(a) iris head:")
 print(iris.head())
 
