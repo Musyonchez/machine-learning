@@ -31,4 +31,8 @@ FREQ_DICT = {0: 'Never', 1: 'Less than once a week', 2: 'Once a week',
 
 ## Status
 
-**Implemented.** All 19 files (11 section files + 8 exercise files) have working code, verified via syntax check on every file plus live smoke tests: `exercise-03.py` (offline), `1.4-summary-statistics.py` and `1.3-summary-tables.py` (network, output matches the book's printed numbers exactly), and `1.5.2.1-boxplot.py` (plotting, runs clean). Requires `pandas`, `matplotlib`, `seaborn`, `numpy`, and `xlrd` (for the old-format `.xls` file in the `nutri` examples) — install via `pip install pandas matplotlib seaborn numpy xlrd`.
+**Implemented and verified.** All 19 files (11 section files + 8 exercise files) were actually executed end-to-end (not just syntax-checked) and confirmed working — `1.3-summary-tables.py`'s output matches the book's printed `fat.value_counts()`/crosstab numbers exactly. Exercise 7 is the one expected exception: it needs a manual ~900MB download first and fails with a clear `FileNotFoundError` otherwise, by design (guarded behind `if __name__ == '__main__':`).
+
+One real bug was caught this way and fixed: Rdatasets now names the CSV index column `rownames` instead of leaving it blank (which pandas used to auto-name `Unnamed: 0`, what the book-era code expects). Affected 5 files (`1.1`, `1.5.3.2`, exercises 5/6/8) — all now check for either column name. Exercise 6 also had an unrelated off-by-one between its generated time vector and the actual row count, now fixed by trimming both to the shorter length.
+
+Requires `pandas`, `matplotlib`, `seaborn`, `numpy`, and `xlrd` (for the old-format `.xls` file in the `nutri` examples) — install via `pip install pandas matplotlib seaborn numpy xlrd`.
