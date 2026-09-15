@@ -7,3 +7,14 @@ Notes:  notes/ch01-importing-summarizing-visualizing-data/1.5-visualizing-data.m
 
 TODO: transcribe the runnable code example(s) from this subsection here.
 """
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+xls = 'http://www.biostatisticien.eu/springeR/nutrition_elderly.xls'
+nutri = pd.read_excel(xls)
+
+width = 0.35
+plt.boxplot(nutri['age'], widths=width, vert=False)
+plt.xlabel('age')
+plt.show()

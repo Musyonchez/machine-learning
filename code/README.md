@@ -30,6 +30,8 @@ This mirrors the book's own numbering exactly, so any code example can be found 
 | C. Probability and Statistics | [appC-probability-and-statistics/](appC-probability-and-statistics/README.md) |
 | D. Python Primer | [appD-python-primer/](appD-python-primer/README.md) |
 
+- Every `.py` file is fully standalone (its own imports, its own data loading/preparation) and never imports another file in this repo — see [ch01's README](ch01-importing-summarizing-visualizing-data/README.md#independence) for how shared things like dataset recoding are handled without cross-file dependencies.
+
 ## Status
 
-Framework complete for all chapters (1-9) and appendices (A-D) — every file is a stub with a source-reference header comment, no code transcribed in yet. Chapter 1 was hand-built as the pilot; the rest were scaffolded the same way directly from the notes' section structure (no PDF reading needed for this step).
+**Chapter 1 implemented** (19/19 files, verified via syntax checks and live smoke tests — see its [README](ch01-importing-summarizing-visualizing-data/README.md) for details). Chapters 2-9 and appendices A-D are still framework only — every file a stub with a source-reference header comment, no code transcribed in yet.
