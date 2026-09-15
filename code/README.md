@@ -48,4 +48,4 @@ This is the playbook Chapter 1 was built with. Follow it for chapters 2-9 and ap
 
 ## Status
 
-**Chapter 1 implemented** (19/19 files, verified via syntax checks and live smoke tests — see its [README](ch01-importing-summarizing-visualizing-data/README.md) for details). Chapters 2-9 and appendices A-D are still framework only — every file a stub with a source-reference header comment, no code transcribed in yet.
+**Chapters 1-3 implemented** (134 files total: 19 in ch1, 36 in ch2, 39 in ch3), each one actually executed end-to-end and confirmed passing — not just syntax-checked. See each chapter's own README for details and any book-code fixes/adaptations needed. Chapters 4-9 and appendices A-D are still framework only — every file a stub with a source-reference header comment, no code transcribed in yet.

@@ -4,5 +4,7 @@ Exercise 2
 
 Notes: notes/ch02-statistical-learning/exercises.md
 
-TODO: transcribe the runnable code for this exercise here (if it requires code).
+This section is purely mathematical exposition (definitions, theorems,
+proofs) with no runnable Python code given in the book. Nothing to
+implement here.
 """

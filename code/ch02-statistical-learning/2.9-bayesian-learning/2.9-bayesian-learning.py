@@ -4,5 +4,7 @@ Section 2.9 - Bayesian Learning
 
 Notes: notes/ch02-statistical-learning/2.9-bayesian-learning.md
 
-TODO: transcribe the runnable code example(s) for this section here.
+This section is purely mathematical exposition (definitions, theorems,
+proofs) with no runnable Python code given in the book. Nothing to
+implement here.
 """

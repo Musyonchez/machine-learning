@@ -4,5 +4,7 @@ Section 3.1 - Introduction
 
 Notes: notes/ch03-monte-carlo-methods/3.1-introduction.md
 
-TODO: transcribe the runnable code example(s) for this section here.
+This section is the chapter's introductory overview (sampling,
+estimation, optimization) with no runnable Python code given in the
+book. Nothing to implement here.
 """
